@@ -50,7 +50,7 @@ def generate_predictions(test_df):
 
 if __name__ == "__main__":
     st.title("Telco Churn Prediction")
-    st.subheader("Enter data about the cusomter you would like to predict:")
+    st.subheader("Enter data about the customer you would like to predict:")
 
     # making customer data inputs
     gender = st.selectbox("Select customer's gender:",
